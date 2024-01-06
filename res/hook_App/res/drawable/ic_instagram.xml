@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="200.0dip" android:width="200.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_instagram__0" android:pathData="M34.017,41.99l-20,0.019c-4.4,0.004 -8.003,-3.592 -8.008,-7.992l-0.019,-20c-0.004,-4.4 3.592,-8.003 7.992,-8.008l20,-0.019c4.4,-0.004 8.003,3.592 8.008,7.992l0.019,20C42.014,38.383 38.417,41.986 34.017,41.99z" />
+    <path android:fillColor="@drawable/$ic_instagram__1" android:pathData="M34.017,41.99l-20,0.019c-4.4,0.004 -8.003,-3.592 -8.008,-7.992l-0.019,-20c-0.004,-4.4 3.592,-8.003 7.992,-8.008l20,-0.019c4.4,-0.004 8.003,3.592 8.008,7.992l0.019,20C42.014,38.383 38.417,41.986 34.017,41.99z" />
+    <path android:fillColor="#ffffffff" android:pathData="M24,31c-3.859,0 -7,-3.14 -7,-7s3.141,-7 7,-7s7,3.14 7,7S27.859,31 24,31zM24,19c-2.757,0 -5,2.243 -5,5s2.243,5 5,5s5,-2.243 5,-5S26.757,19 24,19z" />
+    <path android:fillColor="#ffffffff" android:pathData="M31.5,16.5m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0" />
+    <path android:fillColor="#ffffffff" android:pathData="M30,37H18c-3.859,0 -7,-3.14 -7,-7V18c0,-3.86 3.141,-7 7,-7h12c3.859,0 7,3.14 7,7v12C37,33.86 33.859,37 30,37zM18,13c-2.757,0 -5,2.243 -5,5v12c0,2.757 2.243,5 5,5h12c2.757,0 5,-2.243 5,-5V18c0,-2.757 -2.243,-5 -5,-5H18z" />
+</vector>
