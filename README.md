@@ -54,6 +54,14 @@ or
 
 
 
+# what's included in package ,
+
+     [+] live installation hook panel,, 
+     [+] live installation hook Builder, 
+     [+] Will Provide All Requirement Tools,
+     [+] Full installation backup videos .
+
+ 
 
 # How To Use ?
 
