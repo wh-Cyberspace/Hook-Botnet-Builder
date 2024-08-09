@@ -46,7 +46,7 @@ Usage of WH-Cyberspace Hacking Tool for attacking targets without prior mutual c
 # 🔑 LICENSE / Activation KEY
 
 
-☆ Buy LICENSE Key IN Website [Here (https://whcyberspace.com) ](https://whcyberspace.com "LICENSE")
+☆ Buy LICENSE Key IN Website [Here (https://whcyberspace.org) ](https://whcyberspace.com "LICENSE")
 
 or
 
